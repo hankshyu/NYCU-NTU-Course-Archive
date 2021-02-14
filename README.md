@@ -1,5 +1,5 @@
 # NYCU-Course
-- Editing🔨
+Building🔨
 ## 大一上
 
 - 哲學概論
