@@ -45,10 +45,10 @@ Building🔨
 - [土木工程概論][3.1]
 - [巨集程式開發與應用][3.2]
 - [機率(英文授課)][3.3]
-- 演算法概論
+- [演算法概論][3.4]
 - [物理(一)][3.5]
 - 進階英文閱讀與討論
-- 體育－羽球乙B
+
 
 
 
@@ -59,5 +59,5 @@ Building🔨
 [3.4]:https://github.com/hankshyu/NYCU-Course/blob/main/Courses/semester%203/演算法概論.md
 [3.5]:https://github.com/hankshyu/NYCU-Course/blob/main/Courses/semester%203/物理(一).md
 [3.6]:https://github.com/hankshyu/NYCU-Course/blob/main/Courses/semester%203/進階英文閱讀與討論.md
-[3.7]:https://github.com/hankshyu/NYCU-Course/blob/main/Courses/semester%203/體育－羽球乙B.md
+
 
