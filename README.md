@@ -5,7 +5,6 @@ Building🔨
 - [哲學概論][1.1]
 - [大一英文(一)][1.2]
 - [奈米與生物技術-原理與實作][1.3]
-- 導師時間
 - 工業工程與管理概論
 - 微積分甲(一)
 - 會計學(一)
@@ -15,12 +14,11 @@ Building🔨
 [1.1]:https://github.com/hankshyu/NYCU-Course/blob/main/Courses/semester%201/哲學概論.md
 [1.2]:https://github.com/hankshyu/NYCU-Course/blob/main/Courses/semester%201/大一英文(一).md
 [1.3]:https://github.com/hankshyu/NYCU-Course/blob/main/Courses/semester%201/奈米與生物技術-原理與實作.md
-[1.4]:https://github.com/hankshyu/NYCU-Course/blob/main/Courses/semester%201/導師時間.md
-[1.5]:https://github.com/hankshyu/NYCU-Course/blob/main/Courses/semester%201/工業工程與管理概論.md
-[1.6]:https://github.com/hankshyu/NYCU-Course/blob/main/Courses/semester%201/微積分甲(一).md
-[1.7]:https://github.com/hankshyu/NYCU-Course/blob/main/Courses/semester%201/會計學(一).md
-[1.8]:https://github.com/hankshyu/NYCU-Course/blob/main/Courses/semester%201/經濟學(一).md
-[1.9]:https://github.com/hankshyu/NYCU-Course/blob/main/Courses/semester%201/計算機概論.md
+[1.4]:https://github.com/hankshyu/NYCU-Course/blob/main/Courses/semester%201/工業工程與管理概論.md
+[1.5]:https://github.com/hankshyu/NYCU-Course/blob/main/Courses/semester%201/微積分甲(一).md
+[1.6]:https://github.com/hankshyu/NYCU-Course/blob/main/Courses/semester%201/會計學(一).md
+[1.7]:https://github.com/hankshyu/NYCU-Course/blob/main/Courses/semester%201/經濟學(一).md
+[1.8]:https://github.com/hankshyu/NYCU-Course/blob/main/Courses/semester%201/計算機概論.md
 
 ## 大一下
 
