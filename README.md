@@ -1,5 +1,6 @@
 # NYCU-Course
-Building🔨
+Currently Building🔨
+
 ## 大一上
 
 - [哲學概論][1.1]
@@ -57,5 +58,7 @@ Building🔨
 [3.4]:https://github.com/hankshyu/NYCU-Course/blob/main/Courses/semester%203/演算法概論.md
 [3.5]:https://github.com/hankshyu/NYCU-Course/blob/main/Courses/semester%203/物理(一).md
 [3.6]:https://github.com/hankshyu/NYCU-Course/blob/main/Courses/semester%203/進階英文閱讀與討論.md
+
+## 大二下 ---> ✏️Studying
 
 
