@@ -10,7 +10,7 @@ Currently Building🔨
 - [微積分甲(一)][1.5]
 - [會計學(一)][1.6]
 - [經濟學(一)][1.7]
-- 計算機概論
+- [計算機概論][1.8]
 
 [1.1]:https://github.com/hankshyu/NYCU-Course/blob/main/Courses/semester%201/哲學概論.md
 [1.2]:https://github.com/hankshyu/NYCU-Course/blob/main/Courses/semester%201/大一英文(一).md
