@@ -1,5 +1,5 @@
 # NYCU-Course
-Currently Building🔨
+Currently Building 🔨
 
 ## 大一上
 
