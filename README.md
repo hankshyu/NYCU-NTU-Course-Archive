@@ -50,8 +50,6 @@ Currently Building 🔨
 
 
 
-
-
 [3.1]:https://github.com/hankshyu/NYCU-Course/blob/main/Courses/semester%203/土木工程概論.md
 [3.2]:https://github.com/hankshyu/NYCU-Course/blob/main/Courses/semester%203/巨集程式開發與應用.md
 [3.3]:https://github.com/hankshyu/NYCU-Course/blob/main/Courses/semester%203/機率(英文授課).md
