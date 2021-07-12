@@ -65,13 +65,13 @@ Currently Building 🔨
 - [密碼工程] [4.6]
 - [機器人與人工智慧系統探索] [4.7]
 
-[4.1]:https://github.com/hankshyu/NYCU-Course/blob/main/Courses/semester%203/進階英文閱讀與討論.md
-[4.2]:
-[4.3]:
-[4.4]:
-[4.5]:
-[4.6]:
-[4.7]:
+[4.1]:https://github.com/hankshyu/NYCU-Course/blob/main/Courses/semester%204/人工智慧概論.md
+[4.2]:https://github.com/hankshyu/NYCU-Course/blob/main/Courses/semester%204/資料庫系統概論.md
+[4.3]:https://github.com/hankshyu/NYCU-Course/blob/main/Courses/semester%204/數位電路設計(英文授課).md
+[4.4]:https://github.com/hankshyu/NYCU-Course/blob/main/Courses/semester%204/離散數學.md
+[4.5]:https://github.com/hankshyu/NYCU-Course/blob/main/Courses/semester%204/計算機組織.md
+[4.6]:https://github.com/hankshyu/NYCU-Course/blob/main/Courses/semester%204/密碼工程.md
+[4.7]:https://github.com/hankshyu/NYCU-Course/blob/main/Courses/semester%204/機器人與人工智慧系統探索.md
 
 ## 大三上 ---> ✏️Studying
 
