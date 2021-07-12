@@ -56,6 +56,23 @@ Currently Building 🔨
 [3.5]:https://github.com/hankshyu/NYCU-Course/blob/main/Courses/semester%203/物理(一).md
 [3.6]:https://github.com/hankshyu/NYCU-Course/blob/main/Courses/semester%203/進階英文閱讀與討論.md
 
-## 大二下 ---> ✏️Studying
+## 大二下
+- [人工智慧概論] [4.1]
+- [資料庫系統概論] [4.2]
+- [數位電路設計(英文授課)] [4.3]
+- [離散數學] [4.4]
+- [計算機組織] [4.5]
+- [密碼工程] [4.6]
+- [機器人與人工智慧系統探索] [4.7]
+
+[4.1]:https://github.com/hankshyu/NYCU-Course/blob/main/Courses/semester%203/進階英文閱讀與討論.md
+[4.2]:
+[4.3]:
+[4.4]:
+[4.5]:
+[4.6]:
+[4.7]:
+
+## 大三上 ---> ✏️Studying
 
 
