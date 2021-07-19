@@ -63,7 +63,7 @@ Currently Building 🔨
 - [離散數學][4.4]
 - [計算機組織][4.5] 
 - [密碼工程][4.6]
-- 機器人與人工智慧系統探索 
+- [機器人與人工智慧系統探索][4.7] 
 
 [4.1]:https://github.com/hankshyu/NYCU-Course/blob/main/Courses/semester%204/人工智慧概論.md
 [4.2]:https://github.com/hankshyu/NYCU-Course/blob/main/Courses/semester%204/資料庫系統概論.md
