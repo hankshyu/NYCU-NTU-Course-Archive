@@ -91,8 +91,8 @@ Currently Building 🔨
 - [高等UNIX程式設計][6.2]
 - [物理(二)榮譽班][6.3]
 
-[6.1]:https://github.com/hankshyu/NYCUCourse/blob/main/Courses/semester%206/通訊原理與無線網路.md
-[6.2]:https://github.com/hankshyu/NYCUCourse/blob/main/Courses/semester%206/高等UNIX程式設計.md
+[6.1]:https://github.com/hankshyu/NYCU-Course/blob/main/Courses/semester%206/%E9%80%9A%E8%A8%8A%E5%8E%9F%E7%90%86%E8%88%87%E7%84%A1%E7%B7%9A%E7%B6%B2%E8%B7%AF.md
+[6.2]:https://github.com/hankshyu/NYCU-Course/blob/main/Courses/semester%206/%E9%AB%98%E7%AD%89UNIX%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88.md
 [6.3]:https://github.com/hankshyu/NYCU-Course/blob/main/Courses/semester%206/%E7%89%A9%E7%90%86(%E4%BA%8C)%E6%A6%AE%E8%AD%BD%E7%8F%AD.md
 
 ## 大四上 ---> ✏️Studying
