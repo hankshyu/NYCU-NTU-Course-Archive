@@ -95,4 +95,15 @@ Currently Building 🔨
 [6.2]:https://github.com/hankshyu/NYCU-Course/blob/main/Courses/semester%206/%E9%AB%98%E7%AD%89UNIX%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88.md
 [6.3]:https://github.com/hankshyu/NYCU-Course/blob/main/Courses/semester%206/%E7%89%A9%E7%90%86(%E4%BA%8C)%E6%A6%AE%E8%AD%BD%E7%8F%AD.md
 
-## 大四上 ---> ✏️Studying
+## 大四上
+- [編譯器設計概論][7.1]
+- [微處理機系統原理與實作][7.2]
+- [演化計算][7.3]
+- [邏輯與思維][7.4]
+- [資訊工程研討][7.5]
+
+[7.1]:https://github.com/hankshyu/NYCU-Course/blob/main/Courses/semester%206/%E9%80%9A%E8%A8%8A%E5%8E%9F%E7%90%86%E8%88%87%E7%84%A1%E7%B7%9A%E7%B6%B2%E8%B7%AF.md
+[7.2]:https://github.com/hankshyu/NYCU-Course/blob/main/Courses/semester%206/%E9%AB%98%E7%AD%89UNIX%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88.md
+[7.3]:https://github.com/hankshyu/NYCU-Course/blob/main/Courses/semester%206/%E7%89%A9%E7%90%86(%E4%BA%8C)%E6%A6%AE%E8%AD%BD%E7%8F%AD.md
+
+## 大四下 ---> ✏️Studying
