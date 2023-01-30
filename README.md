@@ -96,7 +96,7 @@ Currently Building 🔨
 [6.3]:https://github.com/hankshyu/NYCU-Course/blob/main/Courses/semester%206/%E7%89%A9%E7%90%86(%E4%BA%8C)%E6%A6%AE%E8%AD%BD%E7%8F%AD.md
 
 ## 大四上
-- 編譯器設計概論
+- [編譯器設計概論][7.1]
 - [微處理機系統原理與實作][7.2]
 - [演化計算][7.3]
 - 邏輯與思維
