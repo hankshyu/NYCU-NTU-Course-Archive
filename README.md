@@ -81,10 +81,15 @@ Currently Building 🔨
 - 數位電路實驗
 - 機器學習概論
 - 作業系統概論
-- 半導體智慧製造管理
+- [半導體智慧製造管理][5.6]
 - 電影賞析與討論
 
 [5.1]:https://github.com/hankshyu/NYCU-Course/blob/main/Courses/semester%205/統計學.md
+
+
+
+
+[5.6]https://github.com/hankshyu/NYCU-Course/blob/main/Courses/semester%205/半導體智慧製造管理.md
 
 
 ## 大三下
