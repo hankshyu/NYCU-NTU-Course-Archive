@@ -21,9 +21,9 @@ Currently Building 🔨
 [1.2]:https://github.com/hankshyu/NYCU-Course/blob/main/Courses/semester%201/大一英文(一).md
 [1.3]:https://github.com/hankshyu/NYCU-Course/blob/main/Courses/semester%201/奈米與生物技術-原理與實作.md
 [1.4]:https://github.com/hankshyu/NYCU-Course/blob/main/Courses/semester%201/工業工程與管理概論.md
-[1.5]:https://github.com/hankshyu/NYCU-Course/blob/main/Courses/semester%201/微積分甲(一).md
-[1.6]:https://github.com/hankshyu/NYCU-Course/blob/main/Courses/semester%201/會計學(一).md
-[1.7]:https://github.com/hankshyu/NYCU-Course/blob/main/Courses/semester%201/經濟學(一).md
+[1.5]:https://github.com/hankshyu/NYCU-Course/blob/main/Courses/semester%201/微積分甲(一)(二).md
+[1.6]:https://github.com/hankshyu/NYCU-Course/blob/main/Courses/semester%201/會計學(一)(二).md
+[1.7]:https://github.com/hankshyu/NYCU-Course/blob/main/Courses/semester%201/經濟學(一)(二).md
 [1.8]:https://github.com/hankshyu/NYCU-Course/blob/main/Courses/semester%201/計算機概論.md
 
 [2.1]:https://github.com/hankshyu/NYCU-Course/blob/main/Courses/semester%202/基礎程式設計(英文授課).md
