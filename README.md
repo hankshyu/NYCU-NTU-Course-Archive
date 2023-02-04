@@ -89,7 +89,7 @@ Currently Building 🔨
 
 
 
-[5.6]https://github.com/hankshyu/NYCU-Course/blob/main/Courses/semester%205/半導體智慧製造管理.md
+[5.6]:https://github.com/hankshyu/NYCU-Course/blob/main/Courses/semester%205/半導體智慧製造管理.md
 
 
 ## 大三下
