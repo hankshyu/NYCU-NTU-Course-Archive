@@ -1,16 +1,21 @@
 # NYCU-Course
 Currently Building 🔨
 
-## 大一上
+## 大一
 
 - [哲學概論][1.1]
 - [大一英文(一)][1.2]
 - [奈米與生物技術-原理與實作][1.3]
 - [工業工程與管理概論][1.4]
-- [微積分甲(一)][1.5]
-- [會計學(一)][1.6]
-- [經濟學(一)][1.7]
+- [微積分甲(一)(二)][1.5]
+- [會計學(一)(二)][1.6]
+- [經濟學(一)(二)][1.7]
 - [計算機概論][1.8]
+- [基礎程式設計(英文授課)][2.1]
+- 大一英文(二)
+- 程式設計
+- 資訊素養與倫理
+
 
 [1.1]:https://github.com/hankshyu/NYCU-Course/blob/main/Courses/semester%201/哲學概論.md
 [1.2]:https://github.com/hankshyu/NYCU-Course/blob/main/Courses/semester%201/大一英文(一).md
@@ -21,23 +26,10 @@ Currently Building 🔨
 [1.7]:https://github.com/hankshyu/NYCU-Course/blob/main/Courses/semester%201/經濟學(一).md
 [1.8]:https://github.com/hankshyu/NYCU-Course/blob/main/Courses/semester%201/計算機概論.md
 
-## 大一下
-
-- [基礎程式設計(英文授課)][2.1]
-- 大一英文(二)
-- 微積分甲(二)
-- 會計學(二)
-- 程式設計
-- 經濟學(二)
-- 資訊素養與倫理
-
 [2.1]:https://github.com/hankshyu/NYCU-Course/blob/main/Courses/semester%202/基礎程式設計(英文授課).md
 [2.2]:https://github.com/hankshyu/NYCU-Course/blob/main/Courses/semester%202/大一英文(二).md
-[2.3]:https://github.com/hankshyu/NYCU-Course/blob/main/Courses/semester%202/微積分甲(二).md
-[2.4]:https://github.com/hankshyu/NYCU-Course/blob/main/Courses/semester%202/會計學(二).md
-[2.5]:https://github.com/hankshyu/NYCU-Course/blob/main/Courses/semester%202/程式設計.md
-[2.6]:https://github.com/hankshyu/NYCU-Course/blob/main/Courses/semester%202/經濟學(二).md
-[2.7]:https://github.com/hankshyu/NYCU-Course/blob/main/Courses/semester%202/資訊素養與倫理.md
+[2.3]:https://github.com/hankshyu/NYCU-Course/blob/main/Courses/semester%202/程式設計.md
+[2.4]:https://github.com/hankshyu/NYCU-Course/blob/main/Courses/semester%202/資訊素養與倫理.md
 
 
 ## 大二上
