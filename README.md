@@ -15,6 +15,7 @@ Currently Building 🔨
 - 大一英文(二)
 - 程式設計
 - 資訊素養與倫理
+- 資料結構與物件導向程式設計
 
 
 [1.1]:https://github.com/hankshyu/NYCU-Course/blob/main/Courses/semester%201/哲學概論.md
