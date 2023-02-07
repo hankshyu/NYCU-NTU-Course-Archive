@@ -31,7 +31,6 @@ Currently Building 🔨
 [2.3]:https://github.com/hankshyu/NYCU-Course/blob/main/Courses/semester%202/程式設計.md
 [2.4]:https://github.com/hankshyu/NYCU-Course/blob/main/Courses/semester%202/資訊素養與倫理.md
 
-
 ## 大二上
 
 - [土木工程概論][3.1]
