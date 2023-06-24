@@ -105,4 +105,16 @@ Currently Building 🔨
 [7.4]:https://github.com/hankshyu/NYCU-Course/blob/main/Courses/semester%207/邏輯與思維.md
 [7.5]:https://github.com/hankshyu/NYCU-Course/blob/main/Courses/semester%207/資訊工程研討.md
 
-## 大四下 ---> ✏️Studying
+## 大四下
+
+- [影像處理概論][8.1]
+- [正規語言概論][8.2]
+- [嵌入式系統總整與實作][8.3]
+- [積體電路設計實驗][8.4]
+
+
+[8.1]:
+[8.2]:
+[8.3]:
+[8.4]:https://github.com/hankshyu/ICLab_2023/blob/main/README.md
+
