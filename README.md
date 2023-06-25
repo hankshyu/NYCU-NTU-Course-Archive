@@ -107,11 +107,11 @@ Currently Building 🔨
 
 ## 大四下
 
-- 影像處理概論
+- [影像處理概論][8.1]
 - 正規語言概論
 - 嵌入式系統總整與實作
 - [積體電路設計實驗][8.4]
 
-
+[8.1]:https://github.com/hankshyu/NYCU-Course/blob/main/Courses/semester%208/%E5%B5%8C%E5%85%A5%E5%BC%8F%E7%B3%BB%E7%B5%B1%E7%B8%BD%E6%95%B4%E8%88%87%E5%AF%A6%E4%BD%9C.md
 [8.4]:https://github.com/hankshyu/ICLab_2023/blob/main/README.md
 
