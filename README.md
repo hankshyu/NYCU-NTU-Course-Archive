@@ -78,9 +78,7 @@ Courses/semester 1/哲學概論.md
 [5.1]:./Courses/semester%205/統計學.md
 
 
-
-
-[5.6]:./Courses/semester%205/半導體智慧製造管理.md
+[5.6]:https://github.com/hankshyu/NYCU-Course/blob/main/Courses/semester%205/半導體智慧製造管理.md
 
 
 ## 大三下
