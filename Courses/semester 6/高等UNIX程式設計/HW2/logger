@@ -1,0 +1,67 @@
+pvalue=./logger.so
+ovalue=none
+
+function badin (){
+echo "usage: ./logger [-o file] [-p sopath] [--] cmd [cmd args ...]"
+echo "  -p: set the path to logger.so, default = ./logger.so"
+echo "  -o: print output to file, print to "stderr" if no file specified"
+echo "  --: separate the arguments for logger and for the command"
+}
+
+if [ $# -eq 0 ] 
+then
+    echo "no command given."
+    exit 0
+fi
+
+while [ $# -gt 0 ];do
+    nextarg=$1
+    shift
+    case $nextarg in
+
+    -o)
+        ovalue=$1
+        shift
+        #echo "found: -o $ovalue"
+        ;;
+
+    -p)
+        pvalue=$1
+        shift
+        #echo "found -p in $pvalue"
+        ;;
+    
+    --)
+        if [ $ovalue == none ] 
+        then
+
+            LD_PRELOAD=$pvalue $@
+        else
+
+            LD_PRELOAD=$pvalue  2>$ovalue $@
+        fi
+        exit 0
+        exit 0
+        ;;
+    
+    -*)
+        echo "./logger: invalid option -- ${nextarg#-}"
+        badin
+        exit 0
+        ;;
+    *)
+        if [ $ovalue == none ] 
+        then
+
+            LD_PRELOAD=$pvalue $nextarg $@
+        else
+
+            LD_PRELOAD=$pvalue  2>$ovalue $nextarg $@
+        fi
+        exit 0
+        ;;
+    esac
+    
+
+done
+

@@ -1,0 +1,8 @@
+start
+b 0x400879
+cont
+get rax
+get rdx
+set rdx 5678
+set rax 5678
+cont

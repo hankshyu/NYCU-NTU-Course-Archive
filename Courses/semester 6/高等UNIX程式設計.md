@@ -33,24 +33,62 @@
 
 另外設備方面，老師上課會使用到類 Unix 的環境，所以如果有機會的話用 Mac 會方便很多，如果你是 PC 的話就要裝 Docker 或虛擬機，只要照者老師第一堂課的教學安裝應該就能成功裝起來，如果你是那種怕麻煩的人可以弄一台蘋果電腦會節省妳很多時間。 還有另一種方法就是申請資工系的工作站，或是連上老師位同學們準備的工作站(AMD Threadripper 32 Core)。但這些都沒有Root的權限，有些不方便，另外有少數實驗只能在本地端做，用自己的設備架設環境還是方便一點。
 
-#### 單元列表
+## 單元列表
 
-編號 | 單元名稱
---------|:-----
-1 |Fundamental tools and shell programming
-2 |Files and directories
-3 |File I/O and standard I/O
-4 |System data files and information
-5 |Process environment
-6 |Process control
-7 |Signals
-8 |Assembly language integration
-9 |ptrace and applications
-10 |Threads
-11 |Inter-process communication
-12 |Advanced IPC(Unix domain sockets)
+Chap. | Topic |Slides 
+:--------:|:----- |:---
+1 |Fundamental tools and shell programming| [slide01][sl01]
+2 |Files and directories| [slide04][sl04] 
+3 |File I/O and standard I/O|[slide03+05][sl03+05]
+4 |System data files and information|[slide04][sl04] [slide06][sl06]
+5 |Process environment|[slide07][sl07]
+6 |Process control|[slide08][sl08]
+7 |Signals|[slide10][sl10]
+8 |Assembly language integration|[slide10.5][sl10.5]
+9 |ptrace and applications|[slide10.6][sl10.6]
+10 |Threads|[slide11][sl11] [slide12][sl12]
+11 |Inter-process communication|[slide15][sl15]
+12 |Advanced IPC (Unix domain sockets)|[slide17][sl17]
 
 期中考的範圍為 1 ~ 6，期末考則為 7 ~ 12。
+
+
+
+## Labs 
+Lab| Spec(PDF) |Brief description |Keywords
+:---:|:-----:|:-----|:---
+[Lab1][l1]|[⚙️][s1]|A 'lsof'-like program |[FILE I/O][sl04] [Files and directories][sl04] [System data files][sl06]
+[Lab2][l2]|[⚙️][s2]|Logger program that can show file-access-related activities of an arbitrary binary|[Process environment][sl07] [Process control][sl08]
+[Lab3][l3]|[⚙️][s3]|Extend a mini C library to support signal relevant system calls in x86 Assembly| [x86 Assembly][sl10] [Process control][sl08]
+[Lab4][l4]|[⚙️][s4]|Scriptable Instruction Level Debugger|[Signals][sl10] [ptrace][sl12]
+
+[sl01]:Slides/01-ov%2Btools.pdf
+[sl04]:Slides/04-file%2Bdir.pdf
+[sl03+05]:Slides/03%2B05-file%2Bstdio.pdf
+[sl04]:Slides/04-file%2Bdir.pdf
+[sl06]:Slides/06-sysinfo.pdf
+[sl07]:Slides/07-procenv.pdf
+[sl08]:Slides/08-procctrl.pdf
+[sl10]:Slides/10-signals.pdf
+[sl10.5]:Slides/10.5-assembly.pdf
+[sl10.6]:Slides/10.6-ptrace.pdf
+[sl11]:Slides/11-threads.pdf
+[sl12]:Slides/12-threadctrl.pdf
+[sl15]:Slides/15-classipc.pdf
+[sl17]:Slides/17-advipc.pdf
+  
+[s1]:HW1/unix_hw1.pdf
+[s2]:HW2/unix_hw2.pdf
+[s3]:HW3/unix_hw3.pdf
+[s4]:HW4/unix_hw4.pdf
+
+
+[l1]:HW1/
+[l2]:HW2/
+[l3]:HW3/
+[l4]:HW4/
+
+
 
 ## 評分方式
 
