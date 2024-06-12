@@ -1,0 +1,6 @@
+verilog xil_defaultlib  \
+"../../../../DataFeeder.gen/sources_1/ip/floating_point_0/sim/floating_point_0.v" \
+
+verilog xil_defaultlib "glbl.v"
+
+nosort

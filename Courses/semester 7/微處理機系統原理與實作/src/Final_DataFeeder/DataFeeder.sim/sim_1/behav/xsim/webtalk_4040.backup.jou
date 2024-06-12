@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Mon Jan  2 23:41:13 2023
+# Process ID: 4040
+# Current directory: C:/Users/user/Desktop/mpd_hw/DataFeeder/DataFeeder.sim/sim_1/behav/xsim
+# Command line: wbtcv.exe -mode batch -source C:/Users/user/Desktop/mpd_hw/DataFeeder/DataFeeder.sim/sim_1/behav/xsim/xsim.dir/tb_DataFeeder_behav/webtalk/xsim_webtalk.tcl -notrace
+# Log file: C:/Users/user/Desktop/mpd_hw/DataFeeder/DataFeeder.sim/sim_1/behav/xsim/webtalk.log
+# Journal file: C:/Users/user/Desktop/mpd_hw/DataFeeder/DataFeeder.sim/sim_1/behav/xsim\webtalk.jou
+#-----------------------------------------------------------
+source C:/Users/user/Desktop/mpd_hw/DataFeeder/DataFeeder.sim/sim_1/behav/xsim/xsim.dir/tb_DataFeeder_behav/webtalk/xsim_webtalk.tcl -notrace

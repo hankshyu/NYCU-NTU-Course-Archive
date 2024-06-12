@@ -1,4 +1,5 @@
 # NYCU-Course
+
 Currently Building 🔨
 
 ## 大一
@@ -100,7 +101,7 @@ Currently Building 🔨
 - [資訊工程研討][7.5]
 
 [7.1]:https://github.com/hankshyu/NYCU-Course/blob/main/Courses/semester%207/編譯器設計概論.md
-[7.2]:https://github.com/hankshyu/NYCU-Course/blob/main/Courses/semester%207/微處理機系統原理與實作.md
+[7.2]:https://github.com/hankshyu/NYCU-Course/blob/main/Courses/semester%207/微處理機系統原理與實作/README.md
 [7.3]:https://github.com/hankshyu/NYCU-Course/blob/main/Courses/semester%207/演化計算.md
 [7.4]:https://github.com/hankshyu/NYCU-Course/blob/main/Courses/semester%207/邏輯與思維.md
 [7.5]:https://github.com/hankshyu/NYCU-Course/blob/main/Courses/semester%207/資訊工程研討.md

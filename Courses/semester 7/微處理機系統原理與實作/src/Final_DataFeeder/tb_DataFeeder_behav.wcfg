@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_RDataFeeder_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_RDataFeeder" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000000 us"></ZoomStartTime>
+      <ZoomEndTime time="33.690988 us"></ZoomEndTime>
+      <Cursor1Time time="50.000000 us"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="231"></NameColumnWidth>
+      <ValueColumnWidth column_width="92"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="43" />
+   <wvobject fp_name="/tb_RDataFeeder/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_RDataFeeder/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_RDataFeeder/en" type="logic">
+      <obj_property name="ElementShortName">en</obj_property>
+      <obj_property name="ObjectShortName">en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_RDataFeeder/addr" type="array">
+      <obj_property name="ElementShortName">addr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">addr[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_RDataFeeder/wr" type="logic">
+      <obj_property name="ElementShortName">wr</obj_property>
+      <obj_property name="ObjectShortName">wr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_RDataFeeder/data_i" type="array">
+      <obj_property name="ElementShortName">data_i[31:0]</obj_property>
+      <obj_property name="ObjectShortName">data_i[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_RDataFeeder/data_o" type="array">
+      <obj_property name="ElementShortName">data_o[31:0]</obj_property>
+      <obj_property name="ObjectShortName">data_o[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_RDataFeeder/ready" type="logic">
+      <obj_property name="ElementShortName">ready</obj_property>
+      <obj_property name="ObjectShortName">ready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_RDataFeeder/uut/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_RDataFeeder/uut/EN" type="logic">
+      <obj_property name="ElementShortName">EN</obj_property>
+      <obj_property name="ObjectShortName">EN</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_RDataFeeder/uut/ADDR" type="array">
+      <obj_property name="ElementShortName">ADDR[17:0]</obj_property>
+      <obj_property name="ObjectShortName">ADDR[17:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_RDataFeeder/uut/WR" type="logic">
+      <obj_property name="ElementShortName">WR</obj_property>
+      <obj_property name="ObjectShortName">WR</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_RDataFeeder/uut/DATAI" type="array">
+      <obj_property name="ElementShortName">DATAI[31:0]</obj_property>
+      <obj_property name="ObjectShortName">DATAI[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_RDataFeeder/uut/DATAO" type="array">
+      <obj_property name="ElementShortName">DATAO[31:0]</obj_property>
+      <obj_property name="ObjectShortName">DATAO[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_RDataFeeder/uut/READY" type="logic">
+      <obj_property name="ElementShortName">READY</obj_property>
+      <obj_property name="ObjectShortName">READY</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_RDataFeeder/uut/target_num" type="array">
+      <obj_property name="ElementShortName">target_num[31:0]</obj_property>
+      <obj_property name="ObjectShortName">target_num[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_RDataFeeder/uut/answer_store" type="array">
+      <obj_property name="ElementShortName">answer_store[31:0]</obj_property>
+      <obj_property name="ObjectShortName">answer_store[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_RDataFeeder/uut/A_state" type="array">
+      <obj_property name="ElementShortName">A_state[3:0]</obj_property>
+      <obj_property name="ObjectShortName">A_state[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_RDataFeeder/uut/A_nextstate" type="array">
+      <obj_property name="ElementShortName">A_nextstate[3:0]</obj_property>
+      <obj_property name="ObjectShortName">A_nextstate[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_RDataFeeder/uut/bufread_addr" type="array">
+      <obj_property name="ElementShortName">bufread_addr[3:0]</obj_property>
+      <obj_property name="ObjectShortName">bufread_addr[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_RDataFeeder/uut/bufread_upbound" type="array">
+      <obj_property name="ElementShortName">bufread_upbound[3:0]</obj_property>
+      <obj_property name="ObjectShortName">bufread_upbound[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_RDataFeeder/uut/buff1data_o" type="array">
+      <obj_property name="ElementShortName">buff1data_o[31:0]</obj_property>
+      <obj_property name="ObjectShortName">buff1data_o[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_RDataFeeder/uut/buff2data_o" type="array">
+      <obj_property name="ElementShortName">buff2data_o[31:0]</obj_property>
+      <obj_property name="ObjectShortName">buff2data_o[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_RDataFeeder/uut/writetoram_ok" type="logic">
+      <obj_property name="ElementShortName">writetoram_ok</obj_property>
+      <obj_property name="ObjectShortName">writetoram_ok</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_RDataFeeder/uut/s_axis_a_tvalid" type="logic">
+      <obj_property name="ElementShortName">s_axis_a_tvalid</obj_property>
+      <obj_property name="ObjectShortName">s_axis_a_tvalid</obj_property>
+      <obj_property name="CustomSignalColor">#A0A0A4</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_RDataFeeder/uut/s_axis_a_tdata" type="array">
+      <obj_property name="ElementShortName">s_axis_a_tdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axis_a_tdata[31:0]</obj_property>
+      <obj_property name="CustomSignalColor">#A0A0A4</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_RDataFeeder/uut/s_axis_a_tdata" type="array">
+      <obj_property name="ElementShortName">s_axis_a_tdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axis_a_tdata[31:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">24</obj_property>
+      <obj_property name="radix_otherWidth">8</obj_property>
+      <obj_property name="CustomSignalColor">#A0A0A4</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_RDataFeeder/uut/s_axis_a_tready" type="logic">
+      <obj_property name="ElementShortName">s_axis_a_tready</obj_property>
+      <obj_property name="ObjectShortName">s_axis_a_tready</obj_property>
+      <obj_property name="CustomSignalColor">#A0A0A4</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_RDataFeeder/uut/s_axis_b_tvalid" type="logic">
+      <obj_property name="ElementShortName">s_axis_b_tvalid</obj_property>
+      <obj_property name="ObjectShortName">s_axis_b_tvalid</obj_property>
+      <obj_property name="CustomSignalColor">#A0A0A4</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_RDataFeeder/uut/s_axis_b_tdata" type="array">
+      <obj_property name="ElementShortName">s_axis_b_tdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axis_b_tdata[31:0]</obj_property>
+      <obj_property name="CustomSignalColor">#A0A0A4</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_RDataFeeder/uut/s_axis_b_tdata" type="array">
+      <obj_property name="ElementShortName">s_axis_b_tdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axis_b_tdata[31:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">24</obj_property>
+      <obj_property name="radix_otherWidth">8</obj_property>
+      <obj_property name="CustomSignalColor">#A0A0A4</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_RDataFeeder/uut/s_axis_b_tready" type="logic">
+      <obj_property name="ElementShortName">s_axis_b_tready</obj_property>
+      <obj_property name="ObjectShortName">s_axis_b_tready</obj_property>
+      <obj_property name="CustomSignalColor">#A0A0A4</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_RDataFeeder/uut/s_axis_c_tvalid" type="logic">
+      <obj_property name="ElementShortName">s_axis_c_tvalid</obj_property>
+      <obj_property name="ObjectShortName">s_axis_c_tvalid</obj_property>
+      <obj_property name="CustomSignalColor">#A0A0A4</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_RDataFeeder/uut/s_axis_c_tdata" type="array">
+      <obj_property name="ElementShortName">s_axis_c_tdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axis_c_tdata[31:0]</obj_property>
+      <obj_property name="CustomSignalColor">#A0A0A4</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_RDataFeeder/uut/s_axis_c_tdata" type="array">
+      <obj_property name="ElementShortName">s_axis_c_tdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axis_c_tdata[31:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">24</obj_property>
+      <obj_property name="radix_otherWidth">8</obj_property>
+      <obj_property name="CustomSignalColor">#A0A0A4</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_RDataFeeder/uut/s_axis_c_tready" type="logic">
+      <obj_property name="ElementShortName">s_axis_c_tready</obj_property>
+      <obj_property name="ObjectShortName">s_axis_c_tready</obj_property>
+      <obj_property name="CustomSignalColor">#A0A0A4</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_RDataFeeder/uut/m_axis_result_tvalid" type="logic">
+      <obj_property name="ElementShortName">m_axis_result_tvalid</obj_property>
+      <obj_property name="ObjectShortName">m_axis_result_tvalid</obj_property>
+      <obj_property name="CustomSignalColor">#A0A0A4</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_RDataFeeder/uut/m_axis_result_tdata" type="array">
+      <obj_property name="ElementShortName">m_axis_result_tdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">m_axis_result_tdata[31:0]</obj_property>
+      <obj_property name="CustomSignalColor">#A0A0A4</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_RDataFeeder/uut/m_axis_result_tdata" type="array">
+      <obj_property name="ElementShortName">m_axis_result_tdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">m_axis_result_tdata[31:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">24</obj_property>
+      <obj_property name="radix_otherWidth">8</obj_property>
+      <obj_property name="CustomSignalColor">#A0A0A4</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_RDataFeeder/uut/m_axis_result_tready" type="logic">
+      <obj_property name="ElementShortName">m_axis_result_tready</obj_property>
+      <obj_property name="ObjectShortName">m_axis_result_tready</obj_property>
+      <obj_property name="CustomSignalColor">#A0A0A4</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_RDataFeeder/uut/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_RDataFeeder/uut/S_state" type="array">
+      <obj_property name="ElementShortName">S_state[3:0]</obj_property>
+      <obj_property name="ObjectShortName">S_state[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_RDataFeeder/uut/S_next_state" type="array">
+      <obj_property name="ElementShortName">S_next_state[3:0]</obj_property>
+      <obj_property name="ObjectShortName">S_next_state[3:0]</obj_property>
+   </wvobject>
+</wave_config>

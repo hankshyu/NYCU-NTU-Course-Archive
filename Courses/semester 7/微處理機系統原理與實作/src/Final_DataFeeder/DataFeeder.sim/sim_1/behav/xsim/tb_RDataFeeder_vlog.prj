@@ -1,0 +1,12 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../DataFeeder.gen/sources_1/ip/floating_point_0/sim/floating_point_0.v" \
+"../../../../DataFeeder.srcs/sources_1/new/RDataFeeder.v" \
+"../../../../DataFeeder.srcs/sources_1/new/distri_ram.v" \
+"../../../../DataFeeder.srcs/sim_1/new/tb_RDataFeeder.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

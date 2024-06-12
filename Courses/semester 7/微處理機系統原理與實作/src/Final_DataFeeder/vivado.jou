@@ -1,0 +1,93 @@
+#-----------------------------------------------------------
+# Vivado v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Thu Jan  5 19:03:34 2023
+# Process ID: 2880
+# Current directory: C:/Users/user/Desktop/mpd_hw/DataFeeder
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent10932 C:\Users\user\Desktop\mpd_hw\DataFeeder\DataFeeder.xpr
+# Log file: C:/Users/user/Desktop/mpd_hw/DataFeeder/vivado.log
+# Journal file: C:/Users/user/Desktop/mpd_hw/DataFeeder\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/user/Desktop/mpd_hw/DataFeeder/DataFeeder.xpr
+update_compile_order -fileset sources_1
+close [ open C:/Users/user/Desktop/mpd_hw/DataFeeder/DataFeeder.srcs/sources_1/new/RDataFeeder.v w ]
+add_files C:/Users/user/Desktop/mpd_hw/DataFeeder/DataFeeder.srcs/sources_1/new/RDataFeeder.v
+update_compile_order -fileset sources_1
+close [ open C:/Users/user/Desktop/mpd_hw/DataFeeder/DataFeeder.srcs/sources_1/new/distri_ram.v w ]
+add_files C:/Users/user/Desktop/mpd_hw/DataFeeder/DataFeeder.srcs/sources_1/new/distri_ram.v
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top RDataFeeder [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sources_1
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open C:/Users/user/Desktop/mpd_hw/DataFeeder/DataFeeder.srcs/sim_1/new/tb_RDataFeeder.v w ]
+add_files -fileset sim_1 C:/Users/user/Desktop/mpd_hw/DataFeeder/DataFeeder.srcs/sim_1/new/tb_RDataFeeder.v
+update_compile_order -fileset sim_1
+set_property top tb_RDataFeeder [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+update_compile_order -fileset sim_1
+launch_simulation
+launch_simulation
+open_wave_config C:/Users/user/Desktop/mpd_hw/DataFeeder/tb_DataFeeder_behav.wcfg
+source tb_RDataFeeder.tcl
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+close_sim
+launch_simulation
+open_wave_config C:/Users/user/Desktop/mpd_hw/DataFeeder/tb_DataFeeder_behav.wcfg
+source tb_RDataFeeder.tcl
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+save_wave_config {C:/Users/user/Desktop/mpd_hw/DataFeeder/tb_DataFeeder_behav.wcfg}
+save_wave_config {C:/Users/user/Desktop/mpd_hw/DataFeeder/tb_DataFeeder_behav.wcfg}
+set_property -name {xsim.simulate.runtime} -value {7us} -objects [get_filesets sim_1]
+relaunch_sim
+close_sim
+launch_simulation
+open_wave_config C:/Users/user/Desktop/mpd_hw/DataFeeder/tb_DataFeeder_behav.wcfg
+source tb_RDataFeeder.tcl
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+close_sim
