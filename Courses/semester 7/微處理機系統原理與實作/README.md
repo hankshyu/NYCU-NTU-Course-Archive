@@ -26,13 +26,13 @@
 5 |[Microprocessor Support for Operating Systems][h5]
 6 |[Microprocessor I/O Subsystems][h6]
 
-[h0]:https://github.com/hankshyu/Microprocessor-Systems/blob/main/handouts/0.%20Introduction.pdf
-[h1]:https://github.com/hankshyu/Microprocessor-Systems/blob/main/handouts/1.%20RISCV%20ISA.pdf
-[h2]:https://github.com/hankshyu/Microprocessor-Systems/blob/main/handouts/2.%20Overview%20Of%20Microprocessor%20Designs.pdf
-[h3]:https://github.com/hankshyu/Microprocessor-Systems/blob/main/handouts/3.%20%20Application%20Processors%20and%20Aquila%20SoC.pdf
-[h4]:https://github.com/hankshyu/Microprocessor-Systems/blob/main/handouts/4.%20Memory%20Subsystem.pdf
-[h5]:https://github.com/hankshyu/Microprocessor-Systems/blob/main/handouts/5.%20Operating%20System%20Support.pdf
-[h6]:https://github.com/hankshyu/Microprocessor-Systems/blob/main/handouts/6.%20I-O%20Subsystems.pdf
+[h0]:handouts/0.%20Introduction.pdf
+[h1]:handouts/1.%20RISCV%20ISA.pdf
+[h2]:handouts/2.%20Overview%20Of%20Microprocessor%20Designs.pdf
+[h3]:handouts/3.%20%20Application%20Processors%20and%20Aquila%20SoC.pdf
+[h4]:handouts/4.%20Memory%20Subsystem.pdf
+[h5]:handouts/5.%20Operating%20System%20Support.pdf
+[h6]:handouts/6.%20I-O%20Subsystems.pdf
 
 每個單元都對應一份作業，老師會先利用投影片的方式講解該單元的課程內容，接下來再說明對應該單元的作業。作業內容通常是要同學分析並改進一個微處理機系統的糢組，例如Branch Predictor或Cache System。老師會提供一個BenchMark Program來衡量系統的運作效能，所以效能如果有所提升都會很直觀地反映在測試程式上面。各單元對應的作業如下：
 
@@ -47,24 +47,24 @@
 | HW4 | [Real-time operating system(RTOS) Analysis][hw4]|   [✏️][R4]    | [🔨][s4]  |
 | HW5 | [Domain-Specific Accelerator][hw5]              |   [✏️][R5]    | [🔨][s5]  |
 
-[hw0]:https://github.com/hankshyu/Microprocessor-Systems/blob/main/homeworks/HW0%20Simulation%20of%20a%20HW-SW%20Platform.pdf
-[hw1]:https://github.com/hankshyu/Microprocessor-Systems/blob/main/homeworks/HW1/HW1%20Real-time%20Analysis%20of%20a%20HW-SW%20Platform.pdf
-[hw2]:https://github.com/hankshyu/Microprocessor-Systems/blob/main/homeworks/HW2/HW2%20Branch%20Predictor.pdf
-[hw3]:https://github.com/hankshyu/Microprocessor-Systems/blob/main/homeworks/HW3/HW3%20Cache%20Optimization.pdf
-[hw4]:https://github.com/hankshyu/Microprocessor-Systems/blob/main/homeworks/HW4/HW4%20RTOS%20Analysis.pdf
-[hw5]:https://github.com/hankshyu/Microprocessor-Systems/blob/main/homeworks/HW5/HW5%20Domain-specific%20Accelerator.pdf
+[hw0]:homeworks/HW0%20Simulation%20of%20a%20HW-SW%20Platform.pdf
+[hw1]:homeworks/HW1/HW1%20Real-time%20Analysis%20of%20a%20HW-SW%20Platform.pdf
+[hw2]:homeworks/HW2/HW2%20Branch%20Predictor.pdf
+[hw3]:homeworks/HW3/HW3%20Cache%20Optimization.pdf
+[hw4]:homeworks/HW4/HW4%20RTOS%20Analysis.pdf
+[hw5]:homeworks/HW5/HW5%20Domain-specific%20Accelerator.pdf
 
-[R1]:https://github.com/hankshyu/Microprocessor-Systems/blob/main/homeworks/HW1/0813358_徐子瀚_HW1-Report.pdf
-[R2]:https://github.com/hankshyu/Microprocessor-Systems/blob/main/homeworks/HW2/mpd_hw2_2.pdf
-[R3]:https://github.com/hankshyu/Microprocessor-Systems/blob/main/homeworks/HW3/0813358_hw3_Report.pdf
-[R4]:https://github.com/hankshyu/Microprocessor-Systems/blob/main/homeworks/HW4/mpd_hw4.pdf
-[R5]:https://github.com/hankshyu/Microprocessor-Systems/blob/main/homeworks/HW5/mpd_hw5.pdf
+[R1]:homeworks/HW1/0813358_徐子瀚_HW1-Report.pdf
+[R2]:homeworks/HW2/mpd_hw2_2.pdf
+[R3]:homeworks/HW3/0813358_hw3_Report.pdf
+[R4]:homeworks/HW4/mpd_hw4.pdf
+[R5]:homeworks/HW5/mpd_hw5.pdf
 
-[s1]:https://github.com/hankshyu/Microprocessor-Systems/tree/main/src/HW1
-[s2]:https://github.com/hankshyu/Microprocessor-Systems/tree/main/src/HW2
-[s3]:https://github.com/hankshyu/Microprocessor-Systems/tree/main/src/HW3
-[s4]:https://github.com/hankshyu/Microprocessor-Systems/tree/main/src/HW4
-[s5]:https://github.com/hankshyu/Microprocessor-Systems/tree/main/src/HW5
+[s1]:src/HW1
+[s2]:src/HW2
+[s3]:src/HW3
+[s4]:src/HW4
+[s5]:src/HW5
 
 老師有特別說明他強調的是對於系統的分析而不是改進。老師希望我們分析不同模組設計如何影響整體微處理機的效能，因此如何收集硬體系統的運作的數據並提出解釋就成了這一堂課的核心技能。每一份作業都需要撰寫寫成一份報告，報告的格式是使用IEEE論文的格式，中英文皆可。我是建議同學可以順便練習英文論文寫作，老師會親自批改。每份作業也都要向助教Demo，確保自己設計的模組在開發版上實際運沒有問題並回答一些助教的提問。雖然有要Demo的環節，不過報告的撰寫才是重點，如何將自己的實驗結果加以整合，放進一篇報告裡面也是這堂課會磨練到的技能。期中考和期末考都是考作業的內容，利用寫作業會用到的觀念加以延伸，來完成一些指定的任務。整體而言難度不算很高，只要有認真寫作業的同學都拿到很高的分數。
 
