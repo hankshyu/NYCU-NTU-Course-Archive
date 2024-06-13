@@ -102,7 +102,7 @@
 - [物理(二)榮譽班][6.3]
 
 [6.1]:Courses/semester%206/%E9%80%9A%E8%A8%8A%E5%8E%9F%E7%90%86%E8%88%87%E7%84%A1%E7%B7%9A%E7%B6%B2%E8%B7%AF.md
-[6.2]:Courses/semester 6/高等UNIX程式設計/README.md
+[6.2]:Courses/semester%206/高等UNIX程式設計/README.md
 [6.3]:Courses/semester%206/%E7%89%A9%E7%90%86(%E4%BA%8C)%E6%A6%AE%E8%AD%BD%E7%8F%AD.md
 
 ### 大四上
