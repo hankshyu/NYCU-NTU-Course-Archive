@@ -4,16 +4,19 @@
 
 ### 碩一
 
-- 數位訊號處理架構設計
+- [數位訊號處理架構設計][9.1]
 - 邏輯合成與驗證
 - 積體電路系統測試
 - 電腦輔助分析與最佳化
 - 學術英文論文寫作與發表
 
+
 ### 碩一下
 - 系統晶片設計實驗
 - 奈米積體電路實體設計
-- 演算法
+- [演算法][10.3]
+
+[10.3]:Courses/semester%2010/演算法.md
 
 ## NYCU Course
 
@@ -125,7 +128,7 @@
 - [嵌入式系統總整與實作][8.3]
 - [積體電路設計實驗][8.4]
 
-[8.2]:Courses/semester%208/%E6%AD%A3%E8%A6%8F%E8%AA%9E%E8%A8%80%E6%A6%82%E8%AB%96.md
+[8.2]:Courses/semester%208/正規語言概論/README.md
 [8.3]:Courses/semester%208/%E5%B5%8C%E5%85%A5%E5%BC%8F%E7%B3%BB%E7%B5%B1%E7%B8%BD%E6%95%B4%E8%88%87%E5%AF%A6%E4%BD%9C.md
 [8.4]:https://github.com/hankshyu/ICLab_2023/blob/main/README.md
 

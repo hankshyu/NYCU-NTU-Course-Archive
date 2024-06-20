@@ -1,0 +1,95 @@
+# 正規語言概論
+## 概述
+- 課程名稱：正規語言概論
+- 選修年度：111下
+- 授課教師：陳穎平
+- 開課單位：資工系   
+- 永久課號：CSCS10008
+- 學分數：3.00
+- 必/選修：選修
+
+老師在上課時有特別提到，正規語言是一門資工系的**特色**課程，是資工系最核心的科目之一。正規語言專注於探討計算行為的根本。課程的規劃都圍繞著一個核心問題:
+
+#### What are the fundamental capabilities and limitations of computers?
+
+並且以三個不同的角度切入，分別是 automata，computability 以及 complexity。其實正規語言在數年前的課表中一直是必修課，也是計算理論中很重要的入門課程。我認為它很適合在演算法及編譯器之前修，可以充實很多基礎且重要的觀念，特別是想要鑽研編譯器的同學，這裡是非常好的起點。
+
+## 上課模式
+
+老師一週會有兩堂實體課程，一堂線上課程採用影片錄製的方式。上課節奏我覺得陳老師掌握的很好，音量稍小但只要不是最後幾排就一定聽得清楚。老師上課會用自己的[講義](https://github.com/hankshyu/NYCU-Course/blob/main/Courses/semester%208/正規語言概論/Formal%20Languages%20(annotation).pdf)，基本上就是課本內容濃縮而來 (真的超濃縮)。課本選用的是
+> Introduction to the Theory of Computation (3rd Edition, International Edition), Michael Sipser, Thomson Course Technology.
+
+個人覺得這本書字字珠璣，內容安排和表現的形式很巧妙，看完之後會有融會貫通的感覺。雖然我自己是有買實體書，但是其實網路上面就有公開的版本，在這個學生人手一台 iPad 的情況下根本不成問題。老師上課也會用 Goodnotes 搭配講義及課本教學，單元列表如下:
+
+#### 單元列表
+
+- ##### 0. Introduction
+    - The BIG question
+    - Notions and Terminology
+    - Definitions, Theorems, and Proofs
+- ##### 1. Regular Languages
+    - Finite Automata
+    - Nondeterminism
+    - Regular Expressions
+    - Nonregular Languages
+    - Closure Properties
+    - Myhill-Nerode Theorem
+    - Minimization of DFAs
+- ##### 2. Context-Free Languages
+    - Context-Free Languages (CFGs)
+    - Pushdown Automata (PDAs)
+    - Non-Context-Free Languages
+    - Deterministic Context-Free Languages
+    - Properties of CFLs
+- ##### 3. The Church-Turing Thesis
+    - Turing Machines
+    - Variants of Turing Machines
+    - The Definition of Algorithm
+- ##### 4. Decidability
+    - Decidable Languages
+    - The Halting Problem
+- ##### 5. Reducibility
+    - Undecidable Problems from Language Theory
+    - A Simple Undicidable Problem
+    - Mapping Reducibility
+- ##### 7. Time Complexity
+    - Measuring Complexity
+    - The Class P
+    - The Class NP
+    - NP-completeness
+    - Additional NP-complete Problems
+
+
+這一堂課沒有作業，評分的依據是三次期中考。第一次期中考的範圍是第一章和第二章。主要介紹的內容是以 automata 的角度來切入計算行為，因這對於初學者來說比較 "實體"，也更加容易理解。其中第一章介紹的 Finite Automata 會在編譯器課程中的 Scanner 使用到，可以把 Input stream 切成取多 token。而第二章的 Context-Free Languages 則會在編譯器課程中的 Parser 中使用到，可以利用 Pareser 建立起 Abstract Syntax Tree 方便後續 Semantic Routines 的處理。第一次期中考的內容對於將來修編譯器很有幫助，一定要認真搞懂 automata 之間的關係。第二次期中考的範圍是第三四五章，會涵蓋大名鼎鼎的Turing Machine 以及 The halting problem。就是 Benedict Cumberbatch 飾演 <<模仿遊戲>> 中主角 Alen Turing 提出的重要理論。並衍生出 Turing-decidable 以及 Turing-Recognizable 兩種語言。期末考的範圍則是第七章，深入探討 decidable 語言與時間複雜度。也會介紹 P 和 NP。並正式定義 NP-complete 以及 NP-hard 這兩個常常聽見的名詞。
+
+## 評分方式
+
+老師第一堂上課就公布的評分標準如下:
+
+- Mid-term #1: 30%
+- Mid-term #2: 30%
+- Final: 40%
+
+ 老師也有提到如果到課堂上課的同學人數太少，就有機會觸發點名。點名時每一位同學的學期總成績會直接加五分。不過到學期結束為止都沒有點過任何一次名，應該算特別難觸發的彩蛋。三次考試的人數分布和平均如下圖所示:
+
+#### 成績分布
+
+分數 | 第一次期中考 |  第二次期中考 | 期末考  
+:------|:----- |:--------|:---------
+100分 |       2   | 0  | 1
+90 ~ 100分 | 26   | 8  | 13
+80 ∼ 89分  | 24   | 16  | 22
+70 ∼ 79分  | 26   | 15  | 38
+60 ∼ 69分  | 28　 | 28  | 32
+50 ∼ 59分  | 16　 | 31  | 11
+40 ∼ 49分  | 10　 | 20  | 4
+30 ∼ 39分  | 3　  | 8  | 1
+0 ∼ 29分   | 11   | 6  | 2
+平均       | 69.12 | 60.73 | 71.85
+
+可以看到第二次期末考的平均比其他兩次都低了 10 分左右。這大概是因為第二次期中考題目中有許多的證明題，而同學們對於證明題的把握度都比較低的緣故。老師在計算學期成績也會調整分數，將全班的平均調整到 78 分左右，符合學校的平均。但老師的計算方法是將退選的同學也納入平均中，也就是以零分計算。因此同學普遍都能拿到不錯的成績。
+
+## 結語
+
+在第一次碩班實驗室聚餐的時候，剛好和一個博士班學長聊到 NP-complete 的問題。他本身是數學系出身，也對於計算理論很有興趣。他也分享了一些量子電腦技術與計算理論的有趣問題。雖然積體電路的進步讓電腦性能以指數提升，再加上最近人工智慧的崛起讓電腦萬能論甚囂塵上。但在很久之前就有一位傳奇的計算理論先驅以 Turing Machine 證明還有很多問題無法解決 (和 λ-calculus 的關係 ...)。這一堂課雖然只是計算理論的基礎課程，但是卻為電腦的過去、現在和未來做了詳盡的註解，著實為資工系的核心課程。推薦給每一位資訊工程學子，特別是那些對於編譯器或計算理論有學習熱忱的同學。
+
