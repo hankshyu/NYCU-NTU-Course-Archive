@@ -16,7 +16,7 @@
 - 奈米積體電路實體設計
 - [演算法][10.3]
 
-[9.1]:Courses/semester%2010/數位訊號處理架構設計/README.md
+[9.1]:Courses/semester%209/數位訊號處理架構設計/README.md
 
 [10.3]:Courses/semester%2010/演算法.md
 
